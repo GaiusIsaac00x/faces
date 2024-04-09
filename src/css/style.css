@@ -1,0 +1,194 @@
+/* Import Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dongle:wght@300&family=Inter:wght@300;400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dongle:wght@300&family=Inter:wght@300;400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&display=swap');
+/* Your other CSS styles */
+
+body{
+    background-color: rgba(17, 17, 17, 1);
+}
+.bgcus{
+    background-image: url('../images/img2.png');
+    background-size: 100% 100%;
+    padding: 60px 0px 60px 0px;
+}
+._0inp{
+    background-color: rgba(16, 16, 25, 1);
+    border: 2px solid rgba(53, 53, 66, 1);
+    color: white !important;
+}
+._0inp:focus {
+    color: #212529;
+    background-color: rgba(53, 53, 66, 1);
+    border-color: rgba(255, 255, 255, 0.322) !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem black !important;
+}
+._0who{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+}
+.mgcus{
+    /* margin-top: 130px; */
+}
+._0face{
+    font-family: Prata;
+font-size: 50px;
+font-weight: 400;
+line-height: 64px;
+text-align: left;
+
+}
+._0col{
+    color: rgba(197, 143, 255, 1);
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: center;
+}
+._0fac{
+    font-family: Abril Fatface;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: center;
+}
+._0abt{
+    text-decoration: none;
+    color: white;
+    padding: 3px 9px 3px 9px;
+}
+._0abt:hover{
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgba(197, 143, 255, 1);
+    padding: 3px 9px 3px 9px;
+    border-radius: 7px;
+}
+._0auth{
+    text-decoration: none;
+    background-color: rgba(42, 21, 71, 1);
+    color: rgba(197, 143, 255, 1);
+    border-radius: 10px;
+}
+._0auth:hover{
+    color: rgb(129, 98, 163);
+}
+._0nav{
+    text-decoration: none;
+    color: white !important;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease; /* Smooth transition */
+}
+._0nav:hover{
+    text-decoration: none;
+    color: white !important;
+    border-bottom-color: white;
+}
+._0btn{
+    text-decoration: none;
+    background-color: rgba(197, 143, 255, 1);
+    color: rgba(33, 33, 46, 1);
+    border-radius: 15px !important;
+}
+.section2 h3{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: center;
+    color: rgba(235, 216, 255, 1);
+}
+.section2 h1{
+    font-family: Prata;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 64px;
+    text-align: center;
+    color: white;
+
+}
+.section2 p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: white;
+}
+.section3 ._0cu{
+    background-color: rgba(22, 15, 24, 1);
+    border-radius: 30px;
+}
+.section4 h3{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: left;
+    color: rgba(235, 216, 255, 1);
+}
+.section4 h1{
+    font-family: Prata;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 64px;
+    text-align: left;
+    color: white;
+}
+.section4 h4{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: left;
+    color: rgba(235, 216, 255, 1);
+}
+.section4 p{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+}
+.section5 h3{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: left;
+    color: rgba(235, 216, 255, 1);
+}
+.section5 h1{
+    font-family: Prata;
+    font-size: 43px;
+    font-weight: 400;
+    line-height: 64px;
+    text-align: left;
+    color: white;
+}
+.section5 p{
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+}
+.section6 ._0cu{
+    background-color: rgba(22, 15, 24, 1);
+    border-radius: 30px;
+}
+footer a{
+    font-family: Inter;
+    font-size: 15.2px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+    color: rgba(170, 170, 191, 1);
+}
