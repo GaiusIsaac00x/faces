@@ -14,57 +14,59 @@ function Footer() {
             <div className="row">
               <div className="col-lg-2">
                 <div>
-                  <img src={fcrt} alt="" className="img-fluid" /><br />
-                  <span>© 2024 FACES.ART Holdings</span>
+                  <img src={fcrt} alt="" className="img-fluid" />
                 </div>
+                <div classsName="mt-3">
+                  <span>© 2024 FACES.ART Holdings</span>
+                  </div>
               </div>
               <div className="col-lg-1"></div>
               <div className="col-lg-2">
                 <div>
-                  <a href="" className="mt-3">Collective</a>
+                  <button className="mt-3 _0foot">Collective</button>
                 </div>
                 <div className="mt-2">
-                  <a href="">Faces.Arts</a>
+                <button className="mt-3 _0foot">Faces.art</button>
                 </div>
                 <div className="mt-2">
-                  <a href="">Oddities</a>
+                <button className="mt-3 _0foot">Oddities</button>
                 </div>
                 <div className="mt-2">
-                  <a href="">Mythics</a>
+                <button className="mt-3 _0foot">Mythnics</button>
                 </div>
               </div>
               <div className="col-lg-2">
                 <div>
-                  <a href="" className="mt-3">Grails</a>
+                <button className="mt-3 _0foot">Grails</button>
                 </div>
                 <div className="mt-2">
-                  <a href="">Contact Us</a>
+                <button className="mt-3 _0foot">Contact Us</button>
                 </div>
                 <div className="mt-2">
-                  <a href="">Podcast</a>
+                <button className="mt-3 _0foot">Podcast</button>
                 </div>
                 <div className="mt-2">
-                  <a href="">Shop</a>
+                <button className="mt-3 _0foot">Shop</button>
                 </div>
               </div>
               <div className="col-lg-2">
                 <div>
-                  <a href="" className="mt-3">Careers</a>
+                <button className="mt-3 _0foot">Careers</button>
                 </div>
                 <div className="mt-2">
-                  <a href="">Documentation</a>
+                <button className="mt-3 _0foot">Documentation</button>
                 </div>
                 <div className="mt-2">
-                  <a href="">Privacy policy</a>
+                <button className="mt-3 _0foot">Privacy Policy</button>
                 </div>
                 <div className="mt-2">
-                  <a href="">Terms of use</a>
+                <button className="mt-3 _0foot">Terms of Use</button>
                 </div>
               </div>
               <div className="col-lg-2">
                 <div className="text-end">
                   <img src={svg1} alt="" />
-                  <img src={svg2} alt="" />
+                  <img src={svg2} alt="" className="mx-3"/>
                   <img src={svg3} alt="" />
                 </div>
               </div>

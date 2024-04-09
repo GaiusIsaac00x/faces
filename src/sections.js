@@ -25,7 +25,7 @@ function Sections(){
         <div className="row justify-content-center">
           <div className="col-lg-11">
             <div className="row align-items-center">
-              <div className="col-lg-6">
+              <div className="col-lg-6 col-md-6">
                 <h4 className="text-white _0who">WHO WE ARE</h4>
                 <h1 className="text-white _0face mt-lg-5 mt-3">Faces.Art: An art collector's PFP</h1>
                 <p className="text-white">
@@ -38,37 +38,37 @@ function Sections(){
                   Join us in painting the canvas of tomorrow and let's sprinkle some stardust along the way.
                 </p>
                 <div className="mt-5">
-                  <a href="#" className="_0btn btn w-100 fw-bold">Browse Collection</a>
+                  <button className="_0btn btn w-100 fw-bold">Browse Collection</button>
                 </div>
               </div>
-              <div className="col-lg-1"></div>
-              <div className="col-lg-5">
+              <div className="col-lg-1 col-md-1"></div>
+              <div className="col-lg-5 col-md-5">
                 <div className="row">
-                  <div className="col-lg-4 mt-3">
+                  <div className="col-lg-4 col-md-4 mt-3">
                     <img src={img3} className="img-fluid" alt="" />
                   </div>
-                  <div className="col-lg-4 mt-3">
+                  <div className="col-lg-4 col-md-4 mt-3">
                     <img src={img4} className="img-fluid" alt="" />
                   </div>
-                  <div className="col-lg-4 mt-3">
+                  <div className="col-lg-4 col-md-4 mt-3">
                     <img src={img5} className="img-fluid" alt="" />
                   </div>
-                  <div className="col-lg-4 mt-3">
+                  <div className="col-lg-4 col-md-4 mt-3">
                     <img src={img6} className="img-fluid" alt="" />
                   </div>
-                  <div className="col-lg-4 mt-3">
+                  <div className="col-lg-4 col-md-4 mt-3">
                     <img src={img7} className="img-fluid" alt="" />
                   </div>
-                  <div className="col-lg-4 mt-3">
+                  <div className="col-lg-4 col-md-4 mt-3">
                     <img src={img8} className="img-fluid" alt="" />
                   </div>
-                  <div className="col-lg-4 mt-3">
+                  <div className="col-lg-4 col-md-4 mt-3">
                     <img src={img9} className="img-fluid" alt="" />
                   </div>
-                  <div className="col-lg-4 mt-3">
+                  <div className="col-lg-4 col-md-4 mt-3">
                     <img src={img10} className="img-fluid" alt="" />
                   </div>
-                  <div className="col-lg-4 mt-3">
+                  <div className="col-lg-4 col-md-4 mt-3">
                     <img src={img11} className="img-fluid" alt="" />
                   </div>
                 </div>
@@ -103,23 +103,23 @@ function Sections(){
         <div className="row justify-content-center">
           <div className="col-lg-11">
             <div className="row">
-              <div className="col-lg-6">
+              <div className="col-lg-6 col-md-6">
                 <div className="_0cu pt-4 pb-4 px-5">
                   <h3 className="text-white">Fully “In-Chain”</h3>
                   <p className="text-white">The pixelated art is fully on-chain (aka “in-chain”)—meaning that the images are rendered directly from the Ethereum smart contracts. This unlocks a world of possibilities for customization.</p>
                   <img src={img12} className="img-fluid" alt="" />
                   <div className="mt-5">
-                    <a href="#" className="_0btn btn w-100 py-2 fw-bold">Learn More</a>
+                    <button className="_0btn btn w-100 py-2 fw-bold">Learn More</button>
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-6 col-md-6">
                 <div className="_0cu pt-4 pb-4 px-5">
                   <h3 className="text-white">Custom Features</h3>
                   <p className="text-white">Not only do we offer commemorative backgrounds by Faces.art artist, GP Egbetamah, but we also collaborate with artists like Divergent and Lucid for collectors of their work.</p>
                   <img src={imgx} className="img-fluid" alt="" />
                   <div className="mt-5">
-                    <a href="#" className="_0btn btn w-100 py-2 fw-bold">Browse Collections</a>
+                    <button className="_0btn btn w-100 py-2 fw-bold">Browse Collections</button>
                   </div>
                 </div>
               </div>
@@ -136,27 +136,27 @@ function Sections(){
             <h3>Exclusive</h3>
             <h1>Holder Benefits</h1>
             <div className="row mt-3">
-              <div className="col-lg-4 mt-5">
+              <div className="col-lg-4 col-md-6 mt-5">
                 <h4>Customizable Avatars</h4>
                 <p className="mt-4">Update your Faces.art's appearance based on your wallet's holdings or achievements within the PROOF ecosystem.</p>
               </div>
-              <div className="col-lg-4 mt-5">
+              <div className="col-lg-4 col-md-6 mt-5">
                 <h4>Community Membership</h4>
                 <p className="mt-4">Join the Faces.art community on Discord, on Twitter, and as a Collector on the PROOF art platform.</p>
               </div>
-              <div className="col-lg-4 mt-5">
+              <div className="col-lg-4 col-md-6 mt-5">
                 <h4>Digital & IRL events</h4>
                 <p className="mt-4"></p>
               </div>
-              <div className="col-lg-4 mt-5">
+              <div className="col-lg-4 col-md-6 mt-5">
                 <h4>Nesting Rewards</h4>
                 <p className="mt-4">As your Faces.art nests, you'll unlock exclusive goods to celebrate your holding time. Visit Nesting Rewards to learn more.</p>
               </div>
-              <div className="col-lg-4 mt-5">
+              <div className="col-lg-4 col-md-6 mt-5">
                 <h4>Art & collectible drops</h4>
                 <p className="mt-4">Enjoy digital drops exclusively for the Faces.art, from Oddities and Mythics to our upcoming Diamond Exhibition.</p>
               </div>
-              <div className="col-lg-4 mt-5">
+              <div className="col-lg-4 col-md-6 mt-5">
                 <h4>BB Society membership</h4>
                 <p className="mt-4">Activate creative entrepreneurship with the Lunar Society; home of the Faces.art' and Mythics' community builders.</p>
               </div>
@@ -182,7 +182,7 @@ function Sections(){
                 <h1>Face Art Society (FAS)</h1>
                 <p>The Face Art Society is our rendition of a DAO: a builders club and grant program for community members, orchestrated (and funded) by the PROOF team, but governed by you. Its objectives are twofold—to advance the Faces.art and Mythics brands, and to enrich the holder experience. All Faces.art holders are automatically voting (and proposing, if you opt to be) members of the Face Art Society.</p>
                 <div className="mt-5">
-                  <a href="#" className="_0btn btn w-100">About FAS</a>
+                  <button className="_0btn btn w-100">About FAS</button>
                 </div>
               </div>
             </div>
@@ -202,7 +202,7 @@ function Sections(){
         <div className="row justify-content-center">
           <div className="col-lg-12">
             <div className="row mt-5">
-              <div className="col-lg-6">
+              <div className="col-lg-6 col-md-6">
                 <div className="_0cu py-5 px-5">
                   <h4 className="text-center" style={{ color: 'rgba(235, 216, 255, 1)' }}>Artist Profiles</h4>
                   <div className="d-flex align-items-center mt-5">
@@ -233,18 +233,18 @@ function Sections(){
                     </div>
                   </div>
                   <div className="mt-4">
-                    <a href="#" className="_0btn btn w-100 fw-bold py-2">Browse All Artists</a>
+                    <button className="_0btn btn w-100 fw-bold py-2">Browse All Artists</button>
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-6 col-md-6">
                 <div className="_0cu py-5 px-5">
                   <h4 className="text-center" style={{ color: 'rgba(235, 216, 255, 1)' }}>Curated Exhibitions</h4>
                   <div className="mt-5 pt-3">
                   <img src={imgx4} alt="" className="img-fluid" />
                   </div>
                   <div className="mt-5 pt-2">
-                    <a href="#" className="_0btn btn w-100 fw-bold py-2">View Platinum Exhibition</a>
+                    <button className="_0btn btn w-100 fw-bold py-2">View Platinum Exhibition</button>
                   </div>
                 </div>
               </div>

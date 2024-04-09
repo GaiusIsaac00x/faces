@@ -26,9 +26,9 @@ function Hero() {
       <div className="row justify-content-center mt-4">
         <div className="col-lg-4">
           <div className="text-center">
-            <a href="" className="_0abt">About</a>
-            <a href="" className="mx-3 _0abt">Dashboard</a>
-            <a href="" className="_0abt">Rewards</a>
+            <button className="_0abt">About</button>
+            <button className="mx-3 _0abt">Dashboard</button>
+            <button className="_0abt">Rewards</button>
           </div>
         </div>
       </div>
