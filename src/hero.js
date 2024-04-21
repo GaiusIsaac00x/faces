@@ -1,8 +1,6 @@
 import React from 'react';
-import img1 from './images/img1.png';
-import svg1 from './images/x.svg';
-import svg2 from './images/opensea.svg';
-import svg3 from './images/discord.svg';
+// import img1 from './images/img1.png';
+
 
 
 function Hero() {
@@ -10,27 +8,29 @@ function Hero() {
     <section className="hero mt-5">
     <div className="container mt-5">
       <div className="row justify-content-center">
-        <div className="col-lg-11 bgcus">
-          <div className="text-center">
-            <img src={img1} alt="" width="70px" />
-          </div>
-          <h6 className="text-center _0col mt-5">COLLECTION</h6>
-          <h6 className="text-center _0fac text-white">Faces.Art</h6>
+        <div className="col-lg-6">
+          <h1 className="_0fac text-white">Create unique identities with <span style={{ color: '#c58fff' }}>Faces.Art</span>
+ </h1>
+ <p className="text-white">
+                  Welcome to Faces.art! Here, Facers unite as art collectors, creatives, and dreamers. Our platform isn't just a space—it's a vibrant community fostering genuine connections as we shape the future of web3 art, culture, and technology.
+                </p>
+                <p className="text-white">
+                  Embrace the dawn of a cultural revolution, a digital renaissance where art transcends boundaries. Faces.art is at the forefront, redefining art ownership and appreciation. Our mission? To craft unparalleled experiences for collectors to forge bonds with artists, champion their works, and embark on an exhilarating journey together.
+                </p>
+                <p className="text-white">
+                  Join us in painting the canvas of tomorrow and let's sprinkle some stardust along the way.
+                </p>
+                <div className="mt-5">
+                  <button className="_0btn btn w-100 fw-bold">Browse Collection</button>
+                </div>
           <div className="text-center mt-4">
-            <img src={svg1} alt="" />
-            <img src={svg2} alt="" className="mx-4" />
-            <img src={svg3} alt="" />
+           
           </div>
         </div>
-      </div>
-      <div className="row justify-content-center mt-4">
-        <div className="col-lg-4">
-          <div className="text-center">
-            <button className="_0abt">About</button>
-            <button className="mx-3 _0abt">Dashboard</button>
-            <button className="_0abt">Rewards</button>
-          </div>
+        <div className="col-lg-6">
+         
         </div>
+
       </div>
     </div>
   </section>

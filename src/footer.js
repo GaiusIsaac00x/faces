@@ -64,7 +64,7 @@ function Footer() {
                 </div>
               </div>
               <div className="col-lg-2">
-                <div className="text-end">
+                <div className="text-md-end text-start">
                   <img src={svg1} alt="" />
                   <img src={svg2} alt="" className="mx-3"/>
                   <img src={svg3} alt="" />

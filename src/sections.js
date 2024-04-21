@@ -1,13 +1,4 @@
 import React from 'react';
-import img3 from './images/img3.png';
-import img4 from './images/img4.png';
-import img5 from './images/img5.png';
-import img6 from './images/img6.png';
-import img7 from './images/img7.png';
-import img8 from './images/img8.png';
-import img9 from './images/img9.png';
-import img10 from './images/img10.png';
-import img11 from './images/img11.png';
 import img12 from './images/img12.png';
 import img13 from './images/img13.png';
 import img14 from './images/img14.png';
@@ -20,64 +11,7 @@ function Sections(){
     return (
 
         <div>
-        <section className="mt-5">
-      <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-lg-11">
-            <div className="row align-items-center">
-              <div className="col-lg-6 col-md-6">
-                <h4 className="text-white _0who">WHO WE ARE</h4>
-                <h1 className="text-white _0face mt-lg-5 mt-3">Faces.Art: An art collector's PFP</h1>
-                <p className="text-white">
-                  Welcome to Faces.art! Here, Facers unite as art collectors, creatives, and dreamers. Our platform isn't just a space—it's a vibrant community fostering genuine connections as we shape the future of web3 art, culture, and technology.
-                </p>
-                <p className="text-white">
-                  Embrace the dawn of a cultural revolution, a digital renaissance where art transcends boundaries. Faces.art is at the forefront, redefining art ownership and appreciation. Our mission? To craft unparalleled experiences for collectors to forge bonds with artists, champion their works, and embark on an exhilarating journey together.
-                </p>
-                <p className="text-white">
-                  Join us in painting the canvas of tomorrow and let's sprinkle some stardust along the way.
-                </p>
-                <div className="mt-5">
-                  <button className="_0btn btn w-100 fw-bold">Browse Collection</button>
-                </div>
-              </div>
-              <div className="col-lg-1 col-md-1"></div>
-              <div className="col-lg-5 col-md-5">
-                <div className="row">
-                  <div className="col-lg-4 col-md-4 mt-3">
-                    <img src={img3} className="img-fluid" alt="" />
-                  </div>
-                  <div className="col-lg-4 col-md-4 mt-3">
-                    <img src={img4} className="img-fluid" alt="" />
-                  </div>
-                  <div className="col-lg-4 col-md-4 mt-3">
-                    <img src={img5} className="img-fluid" alt="" />
-                  </div>
-                  <div className="col-lg-4 col-md-4 mt-3">
-                    <img src={img6} className="img-fluid" alt="" />
-                  </div>
-                  <div className="col-lg-4 col-md-4 mt-3">
-                    <img src={img7} className="img-fluid" alt="" />
-                  </div>
-                  <div className="col-lg-4 col-md-4 mt-3">
-                    <img src={img8} className="img-fluid" alt="" />
-                  </div>
-                  <div className="col-lg-4 col-md-4 mt-3">
-                    <img src={img9} className="img-fluid" alt="" />
-                  </div>
-                  <div className="col-lg-4 col-md-4 mt-3">
-                    <img src={img10} className="img-fluid" alt="" />
-                  </div>
-                  <div className="col-lg-4 col-md-4 mt-3">
-                    <img src={img11} className="img-fluid" alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+       
 
 
     <section className="mt-5 section2">
@@ -101,7 +35,7 @@ function Sections(){
     <section className="section3 mt-5">
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-lg-11">
+          <div className="col-lg-12">
             <div className="row">
               <div className="col-lg-6 col-md-6">
                 <div className="_0cu pt-4 pb-4 px-5">
@@ -114,12 +48,12 @@ function Sections(){
                 </div>
               </div>
               <div className="col-lg-6 col-md-6">
-                <div className="_0cu pt-4 pb-4 px-5">
+                <div className="_0cu pt-4 pb-4 px-5 h-100">
                   <h3 className="text-white">Custom Features</h3>
                   <p className="text-white">Not only do we offer commemorative backgrounds by Faces.art artist, GP Egbetamah, but we also collaborate with artists like Divergent and Lucid for collectors of their work.</p>
                   <img src={imgx} className="img-fluid" alt="" />
                   <div className="mt-5">
-                    <button className="_0btn btn w-100 py-2 fw-bold">Browse Collections</button>
+                    <button className="_0btn btn w-100 py-2 fw-bold mt-3">Browse Collections</button>
                   </div>
                 </div>
               </div>
@@ -132,7 +66,7 @@ function Sections(){
     <section className="section4 mt-5 mb-5">
       <div className="container pt-5 pb-5">
         <div className="row justify-content-center">
-          <div className="col-lg-11">
+          <div className="col-lg-12">
             <h3>Exclusive</h3>
             <h1>Holder Benefits</h1>
             <div className="row mt-3">
@@ -169,7 +103,7 @@ function Sections(){
     <section className="section5">
       <div className="container">
         <div className="row">
-          <div className="col-lg-11">
+          <div className="col-lg-12">
             <div className="row align-items-center">
               <div className="col-lg-5">
                 <div className="text-center">
@@ -177,7 +111,7 @@ function Sections(){
                 </div>
               </div>
               <div className="col-lg-1"></div>
-              <div className="col-lg-6">
+              <div className="col-lg-6 px-3 px-md-0">
                 <h3>Driven By Community</h3>
                 <h1>Face Art Society (FAS)</h1>
                 <p>The Face Art Society is our rendition of a DAO: a builders club and grant program for community members, orchestrated (and funded) by the PROOF team, but governed by you. Its objectives are twofold—to advance the Faces.art and Mythics brands, and to enrich the holder experience. All Faces.art holders are automatically voting (and proposing, if you opt to be) members of the Face Art Society.</p>
@@ -203,7 +137,7 @@ function Sections(){
           <div className="col-lg-12">
             <div className="row mt-5">
               <div className="col-lg-6 col-md-6">
-                <div className="_0cu py-5 px-5">
+                <div className="_0cu py-5 px-md-5 px-3">
                   <h4 className="text-center" style={{ color: 'rgba(235, 216, 255, 1)' }}>Artist Profiles</h4>
                   <div className="d-flex align-items-center mt-5">
                     <div>
