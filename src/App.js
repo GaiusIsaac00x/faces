@@ -1,7 +1,10 @@
 import React from 'react';
 // import Hero from './hero';
 import Sections from './sections';
-import Slider from './slider';
+import slide1 from './images/slide1.jpeg';
+import slide2 from './images/slide2.jpeg';
+import slide3 from './images/slide3.jpeg';
+// import Slider from './slider';
 import Footer from './footer';
 import logo from './images/img1.png';
 import facex from './images/facex.png';
@@ -120,9 +123,20 @@ function App() {
   </section>
     </div>
     </div>
-    <section className='secrel'>
+    <section className='secrel mt-5'>
       <div className='container'>
-      <Slider />
+         <div className='row'>
+         <div className='col-lg-4 col-md-4'>
+         <img src={slide1} className='w-100 rounded-4' alt=""/>
+         </div>
+         <div className='col-lg-4 col-md-4'>
+         <img src={slide2} className='w-100 rounded-4' alt=""/>
+         </div>
+         <div className='col-lg-4 col-md-4'>
+         <img src={slide3} className='w-100 rounded-4' alt=""/>
+         </div>
+
+         </div>
       </div>
   </section>
 
