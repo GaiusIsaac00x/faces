@@ -1,11 +1,21 @@
 import React from 'react';
 import img12 from './images/img12.png';
-import img13 from './images/img13.png';
+// import img13 from './images/img13.png';
+import twin1 from './images/twin1.jpeg';
+import twin2 from './images/twin2.jpeg';
+import twin3 from './images/twin3.jpeg';
+import twin4 from './images/twin4.jpeg';
 import img14 from './images/img14.png';
 import imgx from './images/imgx.png';
 import imgx2 from './images/imgx2.png';
 import imgx3 from './images/imgx3.png';
-import imgx4 from './images/imgx4.png';
+// import imgx4 from './images/imgx4.png';
+import p1 from './images/p1.jpeg';
+import p2 from './images/p2.jpeg';
+import p3 from './images/p3.jpeg';
+import p4 from './images/p4.jpeg';
+import p5 from './images/p5.jpeg';
+import p6 from './images/p6.jpeg';
 
 function Sections(){
     return (
@@ -106,8 +116,27 @@ function Sections(){
           <div className="col-lg-12">
             <div className="row align-items-center">
               <div className="col-lg-5">
-                <div className="text-center">
-                  <img src={img13} alt="" className="img-fluid" width="80%" />
+                <div className='row'>
+                  <div className='col-lg-6 mt-3'>
+                  <div className="text-center">
+                  <img src={twin1} alt="" className="img-fluid rounded-5 _0bxsh" width="80%" />
+                </div>
+                  </div>
+                  <div className='col-lg-6 mt-3'>
+                  <div className="text-center">
+                  <img src={twin2} alt="" className="img-fluid rounded-5 _0bxsh" width="80%" />
+                </div>
+                  </div>
+                  <div className='col-lg-6 mt-3'>
+                  <div className="text-center">
+                  <img src={twin3} alt="" className="img-fluid rounded-5 _0bxsh" width="80%" />
+                </div>
+                  </div>
+                  <div className='col-lg-6 mt-3'>
+                  <div className="text-center">
+                  <img src={twin4} alt="" className="img-fluid rounded-5 _0bxsh" width="80%" />
+                </div>
+                  </div>
                 </div>
               </div>
               <div className="col-lg-1"></div>
@@ -137,7 +166,7 @@ function Sections(){
           <div className="col-lg-12">
             <div className="row mt-5">
               <div className="col-lg-6 col-md-6">
-                <div className="_0cu py-5 px-md-5 px-3">
+                <div className="_0cu py-5 px-md-5 px-3 h-100">
                   <h4 className="text-center" style={{ color: 'rgba(235, 216, 255, 1)' }}>Artist Profiles</h4>
                   <div className="d-flex align-items-center mt-5">
                     <div>
@@ -172,10 +201,39 @@ function Sections(){
                 </div>
               </div>
               <div className="col-lg-6 col-md-6">
-                <div className="_0cu py-5 px-5">
+                <div className="_0cu py-5 px-5 h-100">
                   <h4 className="text-center" style={{ color: 'rgba(235, 216, 255, 1)' }}>Curated Exhibitions</h4>
-                  <div className="mt-5 pt-3">
-                  <img src={imgx4} alt="" className="img-fluid" />
+                  <div className='row'>
+                      <div className='col-lg-4'>
+                      <div className="pt-3">
+                  <img src={p1} alt="" className="img-fluid rounded-5" />
+                  </div>
+                      </div>
+                      <div className='col-lg-4'>
+                      <div className="pt-3">
+                  <img src={p2} alt="" className="img-fluid rounded-5" />
+                  </div>
+                      </div>
+                      <div className='col-lg-4'>
+                      <div className="pt-3">
+                  <img src={p3} alt="" className="img-fluid rounded-5" />
+                  </div>
+                      </div>
+                      <div className='col-lg-4'>
+                      <div className=" pt-3">
+                  <img src={p4} alt="" className="img-fluid rounded-5" />
+                  </div>
+                      </div>
+                      <div className='col-lg-4'>
+                      <div className=" pt-3">
+                  <img src={p5} alt="" className="img-fluid rounded-5" />
+                  </div>
+                      </div>
+                      <div className='col-lg-4'>
+                      <div className=" pt-3">
+                  <img src={p6} alt="" className="img-fluid rounded-5" />
+                  </div>
+                      </div>
                   </div>
                   <div className="mt-5 pt-2">
                     <button className="_0btn btn w-100 fw-bold py-2">View Platinum Exhibition</button>
