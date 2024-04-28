@@ -29,11 +29,11 @@ function Sections(){
         <div className="row justify-content-center">
           <div className="col-lg-8">
             <div>
-              <h3 className="text-center">FACES.ART NFTS</h3>
-              <h1 className="text-center">Art merged with tech</h1>
+              {/* <h3 className="text-center">FACES.ART NFTS</h3> */}
+              <h1 className="text-center">The CipherFace Collection</h1>
               <div className="row justify-content-center">
-                <div className="col-lg-7">
-                  <p className="text-center">Faces.art NFTs comprise a collection of 10,000 digital avatars, crafted by artist and FACES.ART co-founder Godspower Egbetamah. They are distributed under a creative commons (CC0) license, allowing every creative to utilize the artwork for building their own collections and products.</p>
+                <div className="col-lg-10">
+                  <p className="text-center mt-3">Introducing Faces.art NFTs' exclusive CipherFace Collection: 4500 meticulously crafted digital Make-Up Faces by AI. Our goal is to empower creativity by granting access to each face's attributes through our innovative platform. With FacesPool, users can rent makeup attributes to create their unique expressions, unlocking endless creative possibilities. Explore bold new looks or experiment with subtle nuances—Faces.art NFTs redefine artistic expression in the digital realm.</p>
                 </div>
               </div>
             </div>
@@ -49,21 +49,21 @@ function Sections(){
             <div className="row">
               <div className="col-lg-6 col-md-6">
                 <div className="_0cu pt-4 pb-4 px-5">
-                  <h3 className="text-white">Fully “In-Chain”</h3>
-                  <p className="text-white">The pixelated art is fully on-chain (aka “in-chain”)—meaning that the images are rendered directly from the Ethereum smart contracts. This unlocks a world of possibilities for customization.</p>
+                  <h3 className="text-white">Ethereum Chain:</h3>
+                  <p className="text-white">Each CipherFace will be hosted on the Ethereum blockchain, leveraging its robust infrastructure to maximize the utility and functionality of each CipherFace.</p>
                   <img src={img12} className="img-fluid" alt="" />
                   <div className="mt-5">
-                    <button className="_0btn btn w-100 py-2 fw-bold">Learn More</button>
+                    <button className="_0btn btn w-100 py-2 fw-bold">Earn Ethereum</button>
                   </div>
                 </div>
               </div>
               <div className="col-lg-6 col-md-6">
                 <div className="_0cu pt-4 pb-4 px-5 h-100">
-                  <h3 className="text-white">Custom Features</h3>
-                  <p className="text-white">Not only do we offer commemorative backgrounds by Faces.art artist, GP Egbetamah, but we also collaborate with artists like Divergent and Lucid for collectors of their work.</p>
+                  <h3 className="text-white">Crafted For Creativity</h3>
+                  <p className="text-white">Each CipherFace design represents a singular masterpiece meticulously crafted to revolutionize and ignite fresh expressions within the realm of makeup artistry in the web3 era.</p>
                   <img src={imgx} className="img-fluid" alt="" />
                   <div className="mt-5">
-                    <button className="_0btn btn w-100 py-2 fw-bold mt-3">Browse Collections</button>
+                    <button className="_0btn btn w-100 py-2 fw-bold mt-3">Minting Soon</button>
                   </div>
                 </div>
               </div>

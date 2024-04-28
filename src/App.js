@@ -29,17 +29,17 @@ function App() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-5">
               <li className="nav-item dropdown">
-                <button className="nav-link dropdown-toggle _0nav ms-lg-3" id="navbarDropdown"  data-bs-toggle="dropdown" aria-expanded="false">
+                {/* <button className="nav-link dropdown-toggle _0nav ms-lg-3" id="navbarDropdown"  data-bs-toggle="dropdown" aria-expanded="false">
                   Community
-                </button>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                </button> */}
+                {/* <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><button className="dropdown-item">Action</button></li>
                   <li><button className="dropdown-item">Another action</button></li>
                   <li><hr className="dropdown-divider" /></li>
                   <li><button className="dropdown-item">Something else here</button></li>
-                </ul>
+                </ul> */}
               </li>
-              <li className="nav-item dropdown">
+              {/* <li className="nav-item dropdown">
                 <button className="nav-link dropdown-toggle _0nav ms-lg-3" id="navbarDropdown"  data-bs-toggle="dropdown" aria-expanded="false">
                   Art
                 </button>
@@ -49,8 +49,8 @@ function App() {
                   <li><hr className="dropdown-divider" /></li>
                   <li><button className="dropdown-item">Something else here</button></li>
                 </ul>
-              </li>
-              <li className="nav-item dropdown">
+              </li> */}
+              {/* <li className="nav-item dropdown">
                 <button className="nav-link dropdown-toggle _0nav ms-lg-3" id="navbarDropdown"  data-bs-toggle="dropdown" aria-expanded="false">
                   Media
                 </button>
@@ -60,8 +60,8 @@ function App() {
                   <li><hr className="dropdown-divider" /></li>
                   <li><button className="dropdown-item">Something else here</button></li>
                 </ul>
-              </li>
-              <li className="nav-item dropdown">
+              </li> */}
+              {/* <li className="nav-item dropdown">
                 <button className="nav-link dropdown-toggle _0nav ms-lg-3" id="navbarDropdown"  data-bs-toggle="dropdown" aria-expanded="false">
                   Shop
                 </button>
@@ -71,14 +71,14 @@ function App() {
                   <li><hr className="dropdown-divider" /></li>
                   <li><button className="dropdown-item">Something else here</button></li>
                 </ul>
-              </li>
+              </li> */}
             </ul>
 
-            <form className="d-flex ms-md-3">
+            <form className="d-flex ms-md-3 d-none">
             <input className="form-control me-2 _0inp" type="search" placeholder="Search CTRK + K" aria-label="Search" />
             {/* <button className="btn btn-outline-success" type="submit">Search</button> */}
           </form>
-            <button className="_0auth px-3 py-2 mt-md-0 mt-3">Sign In</button>
+            <button className="_0auth px-3 py-2 mt-md-0 mt-3">Faces.Arts</button>
           </div>
         </div>
       </nav>
@@ -92,16 +92,16 @@ function App() {
           <h1 className="_0fac text-white">Create unique identities with <span style={{ color: '#c58fff' }}>Faces.Art</span>
  </h1>
  <p className="text-white">
-                  Welcome to Faces.art! Here, Facers unite as art collectors, creatives, and dreamers. Our platform isn't just a space—it's a vibrant community fostering genuine connections as we shape the future of web3 art, culture, and technology.
+              Welcome to Faces.art! Join us as Facers, where art lovers, creators, and earners meet. Our platform is more than just digital; it's a thriving community shaping the future of web3 art, beauty, and fashion.
                 </p>
                 <p className="text-white">
-                  Embrace the dawn of a cultural revolution, a digital renaissance where art transcends boundaries. Faces.art is at the forefront, redefining art ownership and appreciation. Our mission? To craft unparalleled experiences for collectors to forge bonds with artists, champion their works, and embark on an exhilarating journey together.
+                Experience a cultural revolution and digital renaissance at Faces.art, where art transcends limits. We're redefining art ownership and appreciation, offering unparalleled experiences in crafting unique expressions.
                 </p>
                 <p className="text-white">
-                  Join us in painting the canvas of tomorrow and let's sprinkle some stardust along the way.
+                Explore NFTs with us for seamless Creating, Collecting, and Earning!
                 </p>
                 <div className="mt-5">
-                  <button className="_0btn btn w-100 fw-bold">Browse Collection</button>
+                  <button className="_0btn btn w-100 fw-bold">CipherFace Minting Soon</button>
                 </div>
           <div className="text-center mt-4">
            
