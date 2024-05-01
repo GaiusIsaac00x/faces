@@ -81,28 +81,28 @@ function Sections(){
             <h1>Holder Benefits</h1>
             <div className="row mt-3">
               <div className="col-lg-4 col-md-6 mt-5">
-                <h4>Customizable Avatars</h4>
-                <p className="mt-4">Update your Faces.art's appearance based on your wallet's holdings or achievements within the PROOF ecosystem.</p>
+                <h4>Utility</h4>
+                <p className="mt-4">Each CipherFace attribute will serve as a utility in generating or creating new facial expression tokens power by Al.</p>
               </div>
               <div className="col-lg-4 col-md-6 mt-5">
-                <h4>Community Membership</h4>
-                <p className="mt-4">Join the Faces.art community on Discord, on Twitter, and as a Collector on the PROOF art platform.</p>
+                <h4>Community Engagement</h4>
+                <p className="mt-4">Holding CipherFace NFTs may grant access to dedicated communities of collectors and enthusiasts, fostering networking opportunities and shared experiences.</p>
               </div>
               <div className="col-lg-4 col-md-6 mt-5">
-                <h4>Digital & IRL events</h4>
-                <p className="mt-4"></p>
+                <h4>Ownership</h4>
+                <p className="mt-4"> CipherFace NFTs symbolize possession of distinct digital artworks, granting collectors a feeling of exclusivity and ownership privileges.</p>
               </div>
               <div className="col-lg-4 col-md-6 mt-5">
-                <h4>Nesting Rewards</h4>
-                <p className="mt-4">As your Faces.art nests, you'll unlock exclusive goods to celebrate your holding time. Visit Nesting Rewards to learn more.</p>
+                <h4>Earn Ethereum</h4>
+                <p className="mt-4">CipherFace NFTs will enable the access of each attribute by other creators. By staking, you can earn from the utilization of your CipherFace attributes in crafting new faces .</p>
               </div>
               <div className="col-lg-4 col-md-6 mt-5">
-                <h4>Art & collectible drops</h4>
-                <p className="mt-4">Enjoy digital drops exclusively for the Faces.art, from Oddities and Mythics to our upcoming Diamond Exhibition.</p>
+                <h4>Interoperability</h4>
+                <p className="mt-4">Some CipherFace NFTs may be compatible with various platforms, allowing for interoperability and potential integration with other digital assets or experiences.</p>
               </div>
               <div className="col-lg-4 col-md-6 mt-5">
-                <h4>BB Society membership</h4>
-                <p className="mt-4">Activate creative entrepreneurship with the Lunar Society; home of the Faces.art' and Mythics' community builders.</p>
+                <h4>Drops</h4>
+                <p className="mt-4">Experience exclusive drops designed specifically for CipherFaces, featuring OwlFaces and CatFaces.</p>
               </div>
             </div>
           </div>
@@ -141,11 +141,11 @@ function Sections(){
               </div>
               <div className="col-lg-1"></div>
               <div className="col-lg-6 px-3 px-md-0">
-                <h3>Driven By Community</h3>
-                <h1>Face Art Society (FAS)</h1>
+                <h3>First Community Reward</h3>
+                <h1>Join to earn a share of 225 ETH and a chance at 5 ETH!</h1>
                 <p>The Face Art Society is our rendition of a DAO: a builders club and grant program for community members, orchestrated (and funded) by the PROOF team, but governed by you. Its objectives are twofold—to advance the Faces.art and Mythics brands, and to enrich the holder experience. All Faces.art holders are automatically voting (and proposing, if you opt to be) members of the Face Art Society.</p>
                 <div className="mt-5">
-                  <button className="_0btn btn w-100">About FAS</button>
+                  <button className="_0btn btn w-100">Win 5 ETH</button>
                 </div>
               </div>
             </div>
@@ -157,9 +157,11 @@ function Sections(){
     <section className="mt-5 section6">
       <div className="container pt-5">
         <div className="row justify-content-center">
-          <h3 className="text-center" style={{ color: 'rgba(235, 216, 255, 1)' }}>Proof of Curation</h3>
+          <h3 className="text-center" style={{ color: 'rgba(235, 216, 255, 1)' }}>Powered by the Community</h3>
           <div className="col-lg-5">
-            <p className="text-center text-white" style={{ marginTop: '70px' }}>Over the coming months we're upping the ante on our art offering for the birds, which has until now been mostly reserved for their “elder sibling” the PROOF Collective. Stay tuned…</p>
+            <p className="text-center text-white" style={{ marginTop: '70px' }}>
+            Introducing a web3 Builders Club and Grant Program, organized and financed by the Faces team but under your control. This initiative aims to elevate Faces to new heights and enrich the holder experience. As a CipherFace holder, you automatically gain voting and proposing rights.
+            </p>
           </div>
         </div>
         <div className="row justify-content-center">
