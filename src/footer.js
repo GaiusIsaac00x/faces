@@ -16,9 +16,7 @@ function Footer() {
                 <div>
                   <img src={fcrt} alt="" className="img-fluid" />
                 </div>
-                <div classsName="mt-3">
-                  <span>© 2024 FACES.ART Holdings</span>
-                  </div>
+                
               </div>
               <div className="col-lg-1"></div>
               <div className="col-lg-2">

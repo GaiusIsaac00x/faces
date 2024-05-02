@@ -5,10 +5,10 @@ import twin1 from './images/twin1.jpeg';
 import twin2 from './images/twin2.jpeg';
 import twin3 from './images/twin3.jpeg';
 import twin4 from './images/twin4.jpeg';
-import img14 from './images/img14.png';
+// import img14 from './images/img14.png';
 import imgx from './images/imgx.png';
-import imgx2 from './images/imgx2.png';
-import imgx3 from './images/imgx3.png';
+// import imgx2 from './images/imgx2.png';
+// import imgx3 from './images/imgx3.png';
 // import imgx4 from './images/imgx4.png';
 import p1 from './images/p1.jpeg';
 import p2 from './images/p2.jpeg';
@@ -143,7 +143,9 @@ function Sections(){
               <div className="col-lg-6 px-3 px-md-0">
                 <h3>First Community Reward</h3>
                 <h1>Join to earn a share of 225 ETH and a chance at 5 ETH!</h1>
-                <p>The Face Art Society is our rendition of a DAO: a builders club and grant program for community members, orchestrated (and funded) by the PROOF team, but governed by you. Its objectives are twofold—to advance the Faces.art and Mythics brands, and to enrich the holder experience. All Faces.art holders are automatically voting (and proposing, if you opt to be) members of the Face Art Society.</p>
+                <p>
+                Be part of the minting process and seize the opportunity to win 5 ETH from our total pool of 225 ETH! Here's the deal: 1% of CipherFace NFTs (45 in total) will feature multiple faces. By minting any of these NFTs with your wallet, you qualify to win the 5 ETH prize.
+                </p>
                 <div className="mt-5">
                   <button className="_0btn btn w-100">Win 5 ETH</button>
                 </div>
@@ -169,42 +171,36 @@ function Sections(){
             <div className="row mt-5">
               <div className="col-lg-6 col-md-6">
                 <div className="_0cu py-5 px-md-5 px-3 h-100">
-                  <h4 className="text-center" style={{ color: 'rgba(235, 216, 255, 1)' }}>Artist Profiles</h4>
+                  <h4 className="text-center" style={{ color: 'rgba(235, 216, 255, 1)' }}>Top Faces Creators</h4>
                   <div className="d-flex align-items-center mt-5">
-                    <div>
-                      <img src={img14} alt="" width="70px" height="70px" />
-                    </div>
+                    
                     <div className="ms-3">
                       <h5 className="text-white">Anna Delvey</h5>
                       <h6 style={{ color: 'rgba(235, 216, 255, 1)' }}>Artist</h6>
                     </div>
                   </div>
                   <div className="d-flex align-items-center mt-3">
-                    <div>
-                      <img src={imgx2} alt="" width="70px" height="70px" />
-                    </div>
+                   
                     <div className="ms-3">
                       <h5 className="text-white">Brian Cranston</h5>
                       <h6 style={{ color: 'rgba(235, 216, 255, 1)' }}>Artist</h6>
                     </div>
                   </div>
                   <div className="d-flex align-items-center mt-3">
-                    <div>
-                      <img src={imgx3} alt="" width="70px" height="70px" />
-                    </div>
+                   
                     <div className="ms-3">
                       <h5 className="text-white">Iris West-Allen</h5>
                       <h6 style={{ color: 'rgba(235, 216, 255, 1)' }}>Artist</h6>
                     </div>
                   </div>
                   <div className="mt-4">
-                    <button className="_0btn btn w-100 fw-bold py-2">Browse All Artists</button>
+                    <button className="_0btn btn w-100 fw-bold py-2">See All Creators</button>
                   </div>
                 </div>
               </div>
               <div className="col-lg-6 col-md-6">
                 <div className="_0cu py-5 px-5 h-100">
-                  <h4 className="text-center" style={{ color: 'rgba(235, 216, 255, 1)' }}>Curated Exhibitions</h4>
+                  <h4 className="text-center" style={{ color: 'rgba(235, 216, 255, 1)' }}>Exclusive for CipherFace</h4>
                   <div className='row'>
                       <div className='col-lg-4'>
                       <div className="pt-3">
@@ -238,7 +234,7 @@ function Sections(){
                       </div>
                   </div>
                   <div className="mt-5 pt-2">
-                    <button className="_0btn btn w-100 fw-bold py-2">View Platinum Exhibition</button>
+                    <button className="_0btn btn w-100 fw-bold py-2">CatFace & OwlFace</button>
                   </div>
                 </div>
               </div>
