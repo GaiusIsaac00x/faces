@@ -21,7 +21,7 @@ function App() {
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container-fluid">
           <img src={logo} alt="" width="40px" /> {/* Use imported image */}
-          <span className='_0facez'>FACES</span>
+          <span className='_0facez d-none'>FACES</span>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -88,7 +88,7 @@ function App() {
         <div className="col-lg-11">
           <div className="row justify-content-center">
           <div className="col-lg-7">
-          <h1 className="_0fac text-white">Create unique identities with <span style={{ color: '#c58fff' }}>Faces.Art</span>
+          <h1 className="_0fac text-white">Create unique identities with <span style={{ color: '#c58fff' }}>Faces</span>
  </h1>
  <p className="text-white">
               Welcome to Faces.art! Join us as Facers, where art lovers, creators, and earners meet. Our platform is more than just digital; it's a thriving community shaping the future of web3 art, beauty, and fashion.
