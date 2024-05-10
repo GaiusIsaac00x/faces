@@ -171,30 +171,11 @@ function Sections(){
             <div className="row mt-5">
               <div className="col-lg-6 col-md-6">
                 <div className="_0cu py-5 px-md-5 px-3 h-100">
-                  <h4 className="text-center" style={{ color: 'rgba(235, 216, 255, 1)' }}>Top Faces Creators</h4>
-                  <div className="d-flex align-items-center mt-5">
-                    
-                    <div className="ms-3">
-                      <h5 className="text-white">Anna Delvey</h5>
-                      <h6 style={{ color: 'rgba(235, 216, 255, 1)' }}>Artist</h6>
-                    </div>
-                  </div>
-                  <div className="d-flex align-items-center mt-3">
-                   
-                    <div className="ms-3">
-                      <h5 className="text-white">Brian Cranston</h5>
-                      <h6 style={{ color: 'rgba(235, 216, 255, 1)' }}>Artist</h6>
-                    </div>
-                  </div>
-                  <div className="d-flex align-items-center mt-3">
-                   
-                    <div className="ms-3">
-                      <h5 className="text-white">Iris West-Allen</h5>
-                      <h6 style={{ color: 'rgba(235, 216, 255, 1)' }}>Artist</h6>
-                    </div>
-                  </div>
+                  <h4 className="text-center" style={{ color: 'rgba(235, 216, 255, 1)' }}>Rent , Earn and Create</h4>
+                 
+                  <h3 className='text-white mt-5'>Generate Ethereum through ownership in a CipherFaces pool by leveraging CipherFaces elements for rent, enabling the creation of second-generation CipherFaces.</h3>
                   <div className="mt-4">
-                    <button className="_0btn btn w-100 fw-bold py-2">See All Creators</button>
+                    <button className="_0btn btn w-100 fw-bold py-2 mt-5">Decentralized Activities power by AI</button>
                   </div>
                 </div>
               </div>

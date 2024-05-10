@@ -21,7 +21,7 @@ function App() {
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container-fluid">
           <img src={logo} alt="" width="50px" /> {/* Use imported image */}
-          
+          <button className="_0auth px-3 py-2 mt-md-0 mt-3 ms-2">Faces Art</button>
 
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -78,7 +78,7 @@ function App() {
             <input className="form-control me-2 _0inp" type="search" placeholder="Search CTRK + K" aria-label="Search" />
             {/* <button className="btn btn-outline-success" type="submit">Search</button> */}
           </form>
-            <button className="_0auth px-3 py-2 mt-md-0 mt-3">Faces.Arts</button>
+            <button className="_0auth px-3 py-2 mt-md-0 mt-3">Launch New Faces</button>
           </div>
         </div>
       </nav>
