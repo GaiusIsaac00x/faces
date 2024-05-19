@@ -26,21 +26,21 @@ function App() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-5">
+            <ul className="navbar-nav m-auto mb-2 mb-lg-0 ms-lg-5">
               <li className="nav-item dropdown">
-                {/* <button className="nav-link dropdown-toggle _0nav ms-lg-3" id="navbarDropdown"  data-bs-toggle="dropdown" aria-expanded="false">
-                  Community
-                </button> */}
-                {/* <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <button className="nav-link dropdown-toggle _0nav ms-lg-3" id="navbarDropdown"  data-bs-toggle="dropdown" aria-expanded="false">
+                  Documentations
+                </button>
+                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><button className="dropdown-item">Action</button></li>
                   <li><button className="dropdown-item">Another action</button></li>
                   <li><hr className="dropdown-divider" /></li>
                   <li><button className="dropdown-item">Something else here</button></li>
-                </ul> */}
+                </ul>
               </li>
-              {/* <li className="nav-item dropdown">
+              <li className="nav-item dropdown">
                 <button className="nav-link dropdown-toggle _0nav ms-lg-3" id="navbarDropdown"  data-bs-toggle="dropdown" aria-expanded="false">
-                  Art
+                  Collections
                 </button>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><button className="dropdown-item">Action</button></li>
@@ -48,10 +48,10 @@ function App() {
                   <li><hr className="dropdown-divider" /></li>
                   <li><button className="dropdown-item">Something else here</button></li>
                 </ul>
-              </li> */}
-              {/* <li className="nav-item dropdown">
+              </li>
+              <li className="nav-item dropdown">
                 <button className="nav-link dropdown-toggle _0nav ms-lg-3" id="navbarDropdown"  data-bs-toggle="dropdown" aria-expanded="false">
-                  Media
+                  Create
                 </button>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><button className="dropdown-item">Action</button></li>
@@ -59,10 +59,10 @@ function App() {
                   <li><hr className="dropdown-divider" /></li>
                   <li><button className="dropdown-item">Something else here</button></li>
                 </ul>
-              </li> */}
-              {/* <li className="nav-item dropdown">
+              </li>
+              <li className="nav-item dropdown">
                 <button className="nav-link dropdown-toggle _0nav ms-lg-3" id="navbarDropdown"  data-bs-toggle="dropdown" aria-expanded="false">
-                  Shop
+                  Earn
                 </button>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><button className="dropdown-item">Action</button></li>
@@ -70,7 +70,7 @@ function App() {
                   <li><hr className="dropdown-divider" /></li>
                   <li><button className="dropdown-item">Something else here</button></li>
                 </ul>
-              </li> */}
+              </li>
             </ul>
 
             <form className="d-flex ms-md-3 d-none">

@@ -20,6 +20,7 @@ function Footer() {
               </div>
               <div className="col-lg-1"></div>
               <div className="col-lg-2">
+              <div className='d-none'>
                 <div>
                   <button className="mt-3 _0foot">Collective</button>
                 </div>
@@ -32,8 +33,10 @@ function Footer() {
                 <div className="mt-2">
                 <button className="mt-3 _0foot">Mythnics</button>
                 </div>
+                </div>
               </div>
               <div className="col-lg-2">
+              <div className='d-none'>
                 <div>
                 <button className="mt-3 _0foot">Grails</button>
                 </div>
@@ -46,8 +49,10 @@ function Footer() {
                 <div className="mt-2">
                 <button className="mt-3 _0foot">Shop</button>
                 </div>
+                </div>
               </div>
               <div className="col-lg-2">
+              <div className='d-none'>
                 <div>
                 <button className="mt-3 _0foot">Careers</button>
                 </div>
@@ -59,6 +64,7 @@ function Footer() {
                 </div>
                 <div className="mt-2">
                 <button className="mt-3 _0foot">Terms of Use</button>
+                </div>
                 </div>
               </div>
               <div className="col-lg-2">

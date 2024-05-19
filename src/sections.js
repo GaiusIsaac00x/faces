@@ -175,7 +175,7 @@ function Sections(){
                  
                   <h3 className='text-white mt-5'>Generate Ethereum through ownership in a CipherFaces pool by leveraging CipherFaces elements for rent, enabling the creation of second-generation CipherFaces.</h3>
                   <div className="mt-4">
-                    <button className="_0btn btn w-100 fw-bold py-2 mt-5">Decentralized Activities power by AI</button>
+                    <button className="_0btn btn w-100 fw-bold py-2 mt-5">AI-driven decentralization</button>
                   </div>
                 </div>
               </div>
