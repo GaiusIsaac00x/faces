@@ -3,6 +3,7 @@ import svg1 from './images/x.svg';
 import svg2 from './images/opensea.svg';
 import svg3 from './images/discord.svg';
 import fcrt from './images/faces.png';
+import haige from './images/haiGe.svg';
 
 
 function Footer() {
@@ -72,6 +73,7 @@ function Footer() {
                   <img src={svg1} alt="" />
                   <img src={svg2} alt="" className="mx-3"/>
                   <img src={svg3} alt="" />
+                  <img src={haige} alt="" className="mx-3"/>
                 </div>
               </div>
             </div>
